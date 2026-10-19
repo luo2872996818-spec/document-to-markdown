@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Virtual environment
+.venv/
+
+# Application data
+output/
+converted/
+temp/
+*.log
+
+# IDE and system files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+# Build and release artifacts
+/build/
+/dist/
+/release/
+*.spec.bak

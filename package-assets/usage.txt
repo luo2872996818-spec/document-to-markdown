@@ -1,0 +1,26 @@
+文档批量转 Markdown 使用说明
+
+一、启动
+1. 解压整个 DocumentToMarkdown 文件夹。
+2. 双击 DocumentToMarkdown.exe。
+3. 等待浏览器自动打开。
+4. 如果浏览器没有自动打开，请手动访问 http://localhost:8501。
+
+二、使用
+1. 在左侧上传 PDF、Word、Excel 或 CSV 文件。
+2. 点击“开始批量转换”。
+3. 在右侧查看预览和转换报告。
+4. 点击“单独下载此 Markdown”下载单个文件。
+5. 点击“下载全部 Markdown 和转换报告”下载 ZIP。
+
+三、输出位置
+转换结果会自动保存到程序目录下的 output 文件夹。
+
+四、停止
+关闭 DocumentToMarkdown 命令窗口即可停止本地服务。
+
+五、注意事项
+- 不支持扫描版 PDF OCR。
+- 不支持 DOC 旧版 Word 文件。
+- 标准 Markdown 无法完整保存合并单元格、颜色和复杂排版。
+- Windows 首次运行可能出现“未知发布者”提示，这是未签名程序常见提示。
